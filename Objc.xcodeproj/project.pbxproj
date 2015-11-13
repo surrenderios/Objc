@@ -13,6 +13,8 @@
 		4F82ECE41BF5DCDB00D95577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F82ECE21BF5DCDB00D95577 /* Main.storyboard */; };
 		4F82ECE61BF5DCDB00D95577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F82ECE51BF5DCDB00D95577 /* Assets.xcassets */; };
 		4F82ECE91BF5DCDB00D95577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F82ECE71BF5DCDB00D95577 /* LaunchScreen.storyboard */; };
+		4F82ECF21BF5DD1E00D95577 /* NSIndexPath+DataPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82ECF11BF5DD1E00D95577 /* NSIndexPath+DataPage.m */; settings = {ASSET_TAGS = (); }; };
+		4F82ECF51BF5E7C000D95577 /* KVOCollectionOprators.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82ECF41BF5E7C000D95577 /* KVOCollectionOprators.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		4F82ECE51BF5DCDB00D95577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F82ECE81BF5DCDB00D95577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F82ECEA1BF5DCDB00D95577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F82ECF01BF5DD1E00D95577 /* NSIndexPath+DataPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+DataPage.h"; sourceTree = "<group>"; };
+		4F82ECF11BF5DD1E00D95577 /* NSIndexPath+DataPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+DataPage.m"; sourceTree = "<group>"; };
+		4F82ECF31BF5E7C000D95577 /* KVOCollectionOprators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOCollectionOprators.h; sourceTree = "<group>"; };
+		4F82ECF41BF5E7C000D95577 /* KVOCollectionOprators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOCollectionOprators.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				4F82ECDD1BF5DCDB00D95577 /* AppDelegate.m */,
 				4F82ECDF1BF5DCDB00D95577 /* ViewController.h */,
 				4F82ECE01BF5DCDB00D95577 /* ViewController.m */,
+				4F82ECF01BF5DD1E00D95577 /* NSIndexPath+DataPage.h */,
+				4F82ECF11BF5DD1E00D95577 /* NSIndexPath+DataPage.m */,
+				4F82ECF31BF5E7C000D95577 /* KVOCollectionOprators.h */,
+				4F82ECF41BF5E7C000D95577 /* KVOCollectionOprators.m */,
 				4F82ECE21BF5DCDB00D95577 /* Main.storyboard */,
 				4F82ECE51BF5DCDB00D95577 /* Assets.xcassets */,
 				4F82ECE71BF5DCDB00D95577 /* LaunchScreen.storyboard */,
@@ -150,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F82ECE11BF5DCDB00D95577 /* ViewController.m in Sources */,
+				4F82ECF51BF5E7C000D95577 /* KVOCollectionOprators.m in Sources */,
+				4F82ECF21BF5DD1E00D95577 /* NSIndexPath+DataPage.m in Sources */,
 				4F82ECDE1BF5DCDB00D95577 /* AppDelegate.m in Sources */,
 				4F82ECDB1BF5DCDB00D95577 /* main.m in Sources */,
 			);
